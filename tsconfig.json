@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["es6", "dom"],
+    "types": ["reflect-metadata"],
+    "typeRoots": ["./types/express", "./node_modules/@types"],
+    "pretty": true,
+    "sourceMap": true,
+    "target": "es6",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "strictNullChecks": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["./api/**/*.ts", "./server.ts"],
+  "exclude": ["node_modules"]
+}
